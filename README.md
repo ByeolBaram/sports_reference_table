@@ -1,4 +1,4 @@
-I first considered the project requirement and what I would need. I considered various solutions.
+I first considered the project requirements and what I would need. I considered various solutions.
 
 1. Placing the data into a database then using that to display the data.
 2. Using Python and pandas or dataframes to organize the data.
