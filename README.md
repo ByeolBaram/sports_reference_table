@@ -21,7 +21,7 @@ First, I only wrote the teams names to check to make sure that the teams were pr
 
 ![alt text](https://github.com/ByeolBaram/sports_reference_table/blob/main/pictures/teams_opponents.png)
 
-Then, I first did a check to see if the team in the header was the same team. Since teams don't face themselves, I placed an X in that box.
+Then, I did a check to see if the team in the header was the same team. Since teams don't face themselves, I placed an X in that box.
 
 ![alt text](https://github.com/ByeolBaram/sports_reference_table/blob/main/pictures/own_team_exception.png)
 
