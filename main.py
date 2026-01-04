@@ -21,5 +21,3 @@ for team in teams:
             wins = data[team][opponent]["W"] #loop through and paste the wins
             print(str(wins).ljust(6) + "|", end="   ") #print but add spacing
     print() #go to next line after finishing the row
-
-
