@@ -9,7 +9,7 @@ teams = data.keys()
 print("Team" + "   |", end="   ") #setup the header
 for team in teams:
     print(team.ljust(6) + "|", end="   ") #loop through teams and print them
-print()
+print() #go to next line
 
 for team in teams:
     print(team.ljust(7) + "|", end="   ") #loop through teams for records
@@ -20,6 +20,6 @@ for team in teams:
         else:
             wins = data[team][opponent]["W"] #loop through and paste the wins
             print(str(wins).ljust(6) + "|", end="   ") #print but add spacing
-    print()
+    print() #go to next line after finishing the row
 
 
