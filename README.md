@@ -8,7 +8,7 @@ I was really unsure what was wanted, so considering the prompt stated that they 
 
 Then it was on to the code. 
 
-First, I made a demo JSON file and python file. The contents of the current JSON file are not that important and the subsequent code would work with more or less data points. But I still created one to use for demos and as a sample.
+First, I made a demo JSON file and Python file. The contents of the current JSON file are not that important and the subsequent code would work with more or less data points. But I still created one to use for demos and as a sample.
 
 My first step was to get the JSON data and place the team names into a teams variable. I then used this to display the team names which will be the opponents in the header.
 
@@ -36,7 +36,7 @@ The reasoning for this was I manually added spaces through string concatenation,
 
 ![alt text](https://github.com/ByeolBaram/sports_reference_table/blob/main/pictures/unaligned_data_reasoning.png)
 
-To fix this, I changed to using ljust of string manipulation. This would ensure that everything would align correctly. 
+To fix this, I changed to using Python's ljust() for string manipulation. This would ensure that everything would align correctly. 
 I didn't need to, but I went back and added ljust to other previous lines to standardize and make the code more consistent.
 
 Now, the final result looks like this:
