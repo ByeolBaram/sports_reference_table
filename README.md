@@ -25,13 +25,14 @@ Then, I did a check to see if the team in the header was the same team. Since te
 
 ![alt text](https://github.com/ByeolBaram/sports_reference_table/blob/main/pictures/own_team_exception.png)
 
-For all the other teams, I used the data and only checked the wins against each team. The wins column was then placed into the table.
+For all the other teams, I used the data and only checked the wins against each team. This way, the data would match the example table in the description.
+Each team and their records were placed into the table row by row.
 You could alternatively check only the losses against each team, but then your chart would be inverted.
 
 After doing this, the project was basically complete. But the data was unaligned and looked like this: 
 ![alt text](https://github.com/ByeolBaram/sports_reference_table/blob/main/pictures/results_unaligned.png)
 
-The reasoning for this was I manually added spaces, but this would only work if everything was the exact same amount of characters.
+The reasoning for this was I manually added spaces through string concatenation, but this would only work if everything was the exact same amount of characters.
 
 ![alt text](https://github.com/ByeolBaram/sports_reference_table/blob/main/pictures/unaligned_data_reasoning.png)
 
