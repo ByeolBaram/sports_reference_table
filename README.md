@@ -8,7 +8,7 @@ I was really unsure what was wanted, so considering the prompt stated that they 
 
 Then it was on to the code. 
 
-First, I made a demo JSON file and python file. The contents of the current JSON file are not that important and the subsequent code would work with more or less data points. But I still created one to use for demos and sample.
+First, I made a demo JSON file and python file. The contents of the current JSON file are not that important and the subsequent code would work with more or less data points. But I still created one to use for demos and as a sample.
 
 My first step was to get the JSON data and place the team names into a teams variable. I then used this to display the team names which will be the opponents in the header.
 
