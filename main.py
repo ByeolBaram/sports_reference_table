@@ -8,18 +8,18 @@ print(teams)
 
 print("Team" + "   |", end="   ")
 for team in teams:
-    print(team + "   |", end="   ")
+    print(team.ljust(6) + "|", end="   ")
 print()
 
 for team in teams:
-    print(team + "    |", end="   ")
+    print(team.ljust(7) + "|", end="   ")
 
     for opponent in teams:
         if opponent == team:
             print("X" + "     |", end="   ")
         else:
             wins = data[team][opponent]["W"]
-            print(str(wins) + "   |", end="   ")
+            print(str(wins).ljust(6) + "|", end="   ")
     
     print()
 
